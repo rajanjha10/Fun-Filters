@@ -1,31 +1,12 @@
 body{
 	font-family:Raleway,sans-serif;
 	overflow-x:hidden!important;
-	position:relative
-}
-
-.vertical-middle{
-	position:absolute;
-	width:100%;
-	top:50%;
-	left:0;
-	-webkit-transform:translate(0,-50%);
-	-moz-transform:translate(0,-50%);
-	-ms-transform:translate(0,-50%);
-	-o-transform:translate(0,-50%);
-	transform:translate(0,-50%)
 }
 
 .header{
-	height:30vh;
 	width:100%;
-	background-color:rgba(0,0,0);
-	background-size:cover;
-	background-attachment:fixed;
-	background-blend-mode:overlay;
-	position:relative;
 	margin-bottom:100px;
-	overflow-x:hidden!important
+	background-color: black;
 }
 
 .header .caption{
@@ -34,9 +15,9 @@ body{
 }
 
 .header .caption h1{
-	margin-bottom:40px;
+	margin:20px 0;
 	font-size:50px;
-	font-family:Norican,cursive
+	font-family:Norican,cursive;
 }
 
 .canva{
